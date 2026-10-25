@@ -153,17 +153,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-4.  فایل جدید بساز: `requirements.txt`
-    ```text
-    python-telegram-bot==20.7
-    requests
-    python-dotenv
-    ```
-5.  فایل جدید بساز: `.env.example` (برای یادآوری متغیرها)
-    ```text
-    BOT_TOKEN=your_telegram_bot_token
-    QWEN_API_KEY=your_qwen_api_key
-    QWEN_MODEL=qwen-plus
-    BOT_USERNAME=YourBotUsernameWithoutAt
-    ```
